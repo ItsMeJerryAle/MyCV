@@ -20,8 +20,8 @@ export default function Header() {
 
   return (
     <div>
-        <div className='w-full flex columns-2 h-max'>
-            <div className='px-32 py-32 '>
+        <div className='relative w-full flex columns-2 h-max overflow-hidden' >
+            <div className='px-32 py-32 float-left '>
                 <span className='text-5xl text-white font-light text-left'>Hi! I Am </span>
                 <br/>
                 <span className='text-8xl text-white text-left font-semibold'>Jerry S. Ale </span>
@@ -73,7 +73,7 @@ export default function Header() {
                                         </div>
                                         <div className='px-3 text-left place-self-center'>
                                             <h3 className='text-indigo-600 font-semibold'>Connect via Linked In</h3>
-                                            <p className='text-gray-800'>https://www.linkedin.com/in/jerryale/</p>
+                                            <p className='text-gray-800'>linkedin.com/in/jerryale/</p>
                                         </div>
                                     </div>
                                 </div>
@@ -83,7 +83,7 @@ export default function Header() {
 
                     <button className='t-tooltip place-self-center mr-2 hover:cursor-pointer max-w-md'
                         data-collapse-toggle="toast">
-                        <a href='https://www.linkedin.com/in/jerryale/' target="_blank" rel="noreferrer">
+                        <a href='https://github.com/masterz3rr' target="_blank" rel="noreferrer">
                             <img width="34" height="34" src={process.env.PUBLIC_URL + '/icons/github.svg'} alt="GitHub"/>  
                         </a>
                         
@@ -91,11 +91,11 @@ export default function Header() {
                                 <div className='hidden t-box bg-slate-200 p-4 text-white rounded-xl absolute mt-2'>
                                     <div className='columns-2 flex'>
                                         <div>
-                                            <img  width="70" height="70" src={process.env.PUBLIC_URL + '/icons/gitprofile.jpg'} alt="myprofile"/>
+                                            <img className='rounded-full' width="70" height="70" src={process.env.PUBLIC_URL + '/icons/gitprofile.jpg'} alt="myprofile"/>
                                         </div>
                                         <div className='px-3 text-left place-self-center'>
                                             <h3 className='text-indigo-600 font-semibold'>View my Repository</h3>
-                                            <p className='text-gray-800'>https://github.com/masterz3rr</p>
+                                            <p className='text-gray-800'>github.com/masterz3rr</p>
                                         </div>
                                     </div>
                                 </div>
@@ -105,9 +105,12 @@ export default function Header() {
                 </div>
             </div>
 
-            <div className='inline-block w-6/12 bg-gradient-to-r from-violet-800 to-indigo-600 '>
-                <img className="-ml-60 " src={MyProfile} alt="myprofile"/>
+            <div className='float-left w-6/12 bg-gradient-to-r from-violet-800 to-indigo-600 '>
+                <div className="absolute  inset-y-0 xl:right-0 md:-right-40" >
+                    <img className='w-9/12 h-auto' src={MyProfile} alt="myprofile"/>
+                </div>                
             </div>
+            
         </div>
 
        
