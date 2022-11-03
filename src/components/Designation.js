@@ -108,7 +108,7 @@ export default function Designation() {
                                         <p className='text-center'>BISU Balilihan ICT Services Website</p>
                                     </div>   
                                     <div>
-                                        <a href="http://ict.bisubalilihan.com/" className='text-indigo-400' target="_blank" rel="noreferrer">
+                                        <a href="https://mis-helpline.herokuapp.com/" className='text-indigo-400' target="_blank" rel="noreferrer">
                                                 <img className='h-60 pointer-events-none ml-5' src={process.env.PUBLIC_URL + '/icons/helpdesk.png'} alt="react logo"/>
                                             </a>
                                         <p className='text-center'>MIS Office Helpdesk WebApp</p>
@@ -120,13 +120,13 @@ export default function Designation() {
                                - Administrator of the following university websites
                                <div className='grid grid-cols-2 gap-2 py-2'>
                                     <div>
-                                        <a href="https://ismis.bisu.edu.ph/" className='text-indigo-400' target="_blank" rel="noreferrer">
+                                        <a href="https://admin.bisu.edu.ph/" className='text-indigo-400' target="_blank" rel="noreferrer">
                                                 <img className='h-60 pointer-events-none ml-5' src={process.env.PUBLIC_URL + '/icons/ismis.png'} alt="react logo"/>
                                             </a>
                                         <p className='text-center'>Integrated School Management Information System</p>
                                     </div>    
                                     <div>
-                                        <a href="http://ict.bisubalilihan.com/" className='text-indigo-400' target="_blank" rel="noreferrer">
+                                        <a href="https://bisu.e-learning.ph/" className='text-indigo-400' target="_blank" rel="noreferrer">
                                                 <img className='h-60 pointer-events-none ml-5' src={process.env.PUBLIC_URL + '/icons/lms.png'} alt="react logo"/>
                                             </a>
                                         <p className='text-center'>University Learning Management System</p>
