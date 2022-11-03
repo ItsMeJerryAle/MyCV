@@ -41,7 +41,7 @@ export default function Header() {
                     <div className='flex py-3 ml-8 mr-4'>
                         <p className='text-gray-200'>Connect with me: </p>
                     </div>
-                    <button className='t-tooltip place-self-center mr-2 hover:cursor-pointer max-w-md' onClick={copy}
+                    <button className='t-tooltip place-self-center mr-1 hover:cursor-pointer max-w-md' onClick={copy}
                         data-collapse-toggle="toast">
                         <img width="34" height="34" src={process.env.PUBLIC_URL + '/icons/gmail.svg'} alt="gmail"/> 
                         <div className='t-tooltip -ml-8 '>
@@ -59,7 +59,7 @@ export default function Header() {
                             </div>   
                     </button>
 
-                    <button className='t-tooltip place-self-center mr-2 hover:cursor-pointer max-w-md'
+                    <button className='t-tooltip place-self-center mr-1 hover:cursor-pointer max-w-md'
                         data-collapse-toggle="toast">
                         <a href='https://www.linkedin.com/in/jerryale/' target="_blank" rel="noreferrer">
                             <img width="42" height="42" src={process.env.PUBLIC_URL + '/icons/linkedin.svg'} alt="linked in"/>   
@@ -102,17 +102,41 @@ export default function Header() {
                             </div>  
                     </button>   
 
+                    <button className='t-tooltip place-self-center mr-2 hover:cursor-pointer max-w-md'
+                        data-collapse-toggle="toast">
+                        <a href='https://discord.com/invite/masterzerr#7094' target="_blank" rel="noreferrer">
+                            <img width="34" height="34" src={process.env.PUBLIC_URL + '/icons/discord.svg'} alt="GitHub"/>  
+                        </a>
+                        
+                        <div className='t-tooltip -ml-8 '>
+                                <div className='hidden t-box bg-slate-200 p-4 text-white rounded-xl absolute mt-2'>
+                                    <div className='columns-2 flex'>
+                                        <div>
+                                            <img className='rounded-full' width="70" height="70" src={process.env.PUBLIC_URL + '/icons/gitprofile.jpg'} alt="myprofile"/>
+                                        </div>
+                                        <div className='px-3 text-left place-self-center'>
+                                            <h3 className='text-indigo-600 font-semibold'>Chat on Discord</h3>
+                                            <p className='text-gray-800'>masterzerr#7094</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>  
+                    </button>  
+
                 </div>
             </div>
 
             <div className='float-left w-6/12 bg-gradient-to-r from-violet-800 to-indigo-600 '>
+                
                 <div className="absolute  inset-y-0 xl:right-0 md:-right-40" >
-                    <img className='w-9/12 h-auto' src={MyProfile} alt="myprofile"/>
+                    <img className='w-9/12 h-auto pointer-events-none' src={MyProfile} alt="myprofile"/>
                 </div>                
             </div>
             
         </div>
-
+                <div className="absolute -left-44" >
+                    <img className='w-auto h-72 -rotate-90  pointer-events-none'  src={process.env.PUBLIC_URL + '/icons/Shape.svg'} alt="gmail"/> 
+                </div>  
        
             <div className={ isActive ? 'inline-block absolute top-5 left-5':'hidden absolute top-5 left-5'}>
             <Toast>

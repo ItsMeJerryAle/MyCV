@@ -84,3 +84,59 @@
         opacity: 1;
     }
 }
+
+@media (prefers-reduced-motion: no-preference) {
+    .react-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .flowbite-logo {
+        -webkit-transition-property: -webkit-transform;
+        -webkit-transition-duration: 7s;
+        -moz-transition-property: -moz-transform background-color;
+        -moz-transition-duration: 7s;
+        -webkit-animation-name: grow;
+        -webkit-animation-duration: 11s;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-name: grow;
+        -moz-animation-duration: 11s;
+        -moz-animation-iteration-count: infinite;
+        -moz-animation-timing-function: linear;
+    }
+  }
+
+  @keyframes grow {
+    0% { transform: scale(0.8); }
+    50% { transform: scale(1); }
+    100% { transform: scale(0.8); }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .tailwind-logo {
+        animation: tiltImage 2s linear infinite;
+    }
+  }
+
+  @keyframes tiltImage {
+    0% {
+      transform: skewY(5deg);
+    }
+    50% {
+      transform: skewY(-5deg);
+    }
+    100% {
+      transform: skewY(5deg);
+    }
+  }
