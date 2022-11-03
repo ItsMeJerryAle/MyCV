@@ -24,28 +24,25 @@ export default function CourseList() {
                         <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/bootstrap.svg'} alt="react logo"/>
                         <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/tailwind.svg'} alt="react logo"/>
                         <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/sass.svg'} alt="react logo"/>
+                        <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/mui.svg'} alt="react logo"/>
+                        <img className='w-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/materialize.svg'} alt="react logo"/>
                     </div>
 
-                    <ul className="text-gray-400">
-                        <li>
-                            - HTML5, CSS3, JavaScript
-                        </li>
-                        <li>
-                            - PHP and PHP Laravel Framework
-                        </li>
-                        <li>
-                            - React JS
-                        </li>
-                        <li>
-                            - Bootstrap, Tailwind CSS, Sass CSS
-                        </li>
-                        <li>
-                            - Adobe Photoshop, Illustrator and Adobe XD
-                        </li>
-                        <li>
-                            - MySQL using XAMPP/WAMP, MongoDB Atlas, and Firebase
-                        </li>
-                    </ul>
+                    <p className="text-gray-400 mt-5 mb-2">Applications</p>
+                    <div className='h-12 flex'>
+                        <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/photoshop.svg'} alt="react logo"/>
+                        <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/illustrator.svg'} alt="react logo"/>
+                        <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/xd.svg'} alt="react logo"/>
+                        <img className='h-10 mt-1 w-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/figma.svg'} alt="react logo"/>
+                    </div>
+
+                    <p className="text-gray-400 mt-5 mb-2">Database Management Systems</p>
+                    <div className='h-12 flex'>
+                        <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/mysql.svg'} alt="react logo"/>
+                        <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/illustrator.svg'} alt="react logo"/>
+                        <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/xd.svg'} alt="react logo"/>
+                        <img className='h-10 mt-1 w-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/figma.svg'} alt="react logo"/>
+                    </div>
                 </div>
             </li>
             <li className="flex items-center space-x-2">
