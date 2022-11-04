@@ -1,3 +1,4 @@
+import Drawer from './components/Drawer';
 import Header from './components/Header';
 import Stack from './components/Stack';
 import Timeline from './components/Timeline';
