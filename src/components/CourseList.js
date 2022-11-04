@@ -101,9 +101,6 @@ export default function CourseList() {
                             <img className='h-8 pointer-events-none mr-5' src={process.env.PUBLIC_URL + '/icons/netbeans.png'} alt="react logo"/>
                         </div>
                     </div>
-                    <div className='pl-7'>
-                        <p className="text-gray-400 mb-2">Currently learning React Native and Flutter</p>
-                    </div>
                     
                 </div>
 
@@ -120,7 +117,6 @@ export default function CourseList() {
                             <img className='h-12 pointer-events-none mr-5' src={process.env.PUBLIC_URL + '/icons/visual studio.svg'} alt="react logo"/>
                         </div>
                     </div>
-                    
                 </div>
             </li>
         </ul>

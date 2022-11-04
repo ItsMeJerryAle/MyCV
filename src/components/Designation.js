@@ -203,7 +203,10 @@ export default function Designation() {
                     <div className='pl-5'>
                         <ul className="text-gray-400 mb-2">
                             <li>
-                               - Inform and cultivate awareness on privacy and data protection within the
+                               - Member of the campus panelist of assessors that will check student's outputs on their course project requirements or thesis
+                            </li>
+                            <li>
+                               - Assess students software applications and websites based on the software usability and acceptability criteria
                             </li>
                         </ul>
                        
