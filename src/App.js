@@ -7,9 +7,13 @@ import Stack from './components/Stack';
 import Timeline from './components/Timeline';
 
 function App() {
+
+
   return (
     <div className='px-0' >
-      <Drawer/>
+    
+      <Drawer />
+
       <Header />
       <Stack />
       <div className="w-full" >
@@ -18,7 +22,7 @@ function App() {
           </div>
       </div>
      
-      <Timeline />     
+      <Timeline className="section"/>     
 
       <Education />
       

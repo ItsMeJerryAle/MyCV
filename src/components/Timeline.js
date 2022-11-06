@@ -1,14 +1,16 @@
-import React from 'react'
+import React, {} from 'react'
 import Blackmarket from './Blackmarket'
 import CourseList from './CourseList'
 import Designation from './Designation'
 import Thrane from './Thrane'
 import Trainings from './Trainings'
 
+
 export default function Timeline() {
+
   return (
     <div>
-        <div className='container mx-auto px-64 py-12'>
+        <div className='career container mx-auto px-64 py-12'>
                 <div className='text-center text-slate-200 font-bold text-3xl mb-16'>
                     <h2>
                         My Career Timeline

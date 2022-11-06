@@ -1,14 +1,19 @@
+import React from 'react'
 import { Fragment, useState } from 'react'
 import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 
 export default function Drawer() {
-    const [open, setOpen] = useState(false)
+
+    
+  const [open, setOpen] = useState(false)
+
 
   return (
     <div>
         
-            <button
+
+        <button
                 type="button"
                 className="fixed top-5 right-5 z-10 rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-white"
                 onClick={() => setOpen(true)}
@@ -71,10 +76,67 @@ export default function Drawer() {
                   </Transition.Child>
                   <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
                     <div className="px-4 sm:px-6">
-                      <Dialog.Title className="text-lg font-medium text-gray-900">Panel title</Dialog.Title>
+                      <Dialog.Title className="text-lg font-medium text-gray-900">Navigate</Dialog.Title>
                     </div>
                     <div className="relative mt-6 flex-1 px-4 sm:px-6">
-                      <div>My Content here</div>
+                      <div>
+                        <ul>
+                          <li>
+                            My Profile
+                          </li>
+                          <li>
+                            Tools used in this webpage
+                          </li>
+                          <button >
+                           
+                            Career Timeline
+                          </button>
+                          <li>
+                            University Instructor
+                          </li>
+                          <li>
+                            Subjects Handle
+                          </li>
+                          <li>
+                            Assigned Position
+                          </li>
+                          <li>
+                            Trainings, Seminars and Other Works
+                          </li>
+                          <li>
+                            Web Designer and Developer
+                          </li>
+                          <li>
+                            On-the-job Training
+                          </li>
+                          <li>
+                            Graphic Artist
+                          </li>
+                          <li>
+                            Education Timeline
+                          </li>
+                          <li>
+                           Masters Degree
+                          </li>
+                          <li>
+                           Board Passer
+                          </li>
+                          <li>
+                           Qualifying Course
+                          </li>
+                          <li>
+                           Bachelors Degree
+                          </li>
+                          <li>
+                           Secondary Education
+                          </li>
+                          <li>
+                           My Services
+                          </li>
+                        </ul>
+
+
+                      </div>
                     </div>
                   </div>
                 </Dialog.Panel>
@@ -84,6 +146,7 @@ export default function Drawer() {
         </div>
       </Dialog>
     </Transition.Root>
+
     </div>
   )
 }
