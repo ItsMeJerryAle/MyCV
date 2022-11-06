@@ -82,56 +82,91 @@ export default function Drawer() {
                       <div>
                         <ul>
                           <li>
-                            My Profile
+                            <a href="#profile">
+                              My Profile
+                            </a>
                           </li>
                           <li>
+                            <a href="#tools">
                             Tools used in this webpage
+                            </a>
                           </li>
-                          <button >
-                           
+                          <li>
+                            <a href="#career">
                             Career Timeline
-                          </button>
+                            </a>
+                          </li>
                           <li>
+                            <a href="#career">
                             University Instructor
+                            </a>
                           </li>
                           <li>
+                            <a href="#career">
                             Subjects Handle
+                            </a>
                           </li>
                           <li>
+                            <a href="#position">
                             Assigned Position
+                            </a>
                           </li>
                           <li>
+                            <a href="#trainings">
                             Trainings, Seminars and Other Works
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="#designer">
+                            Web Designer and Developers
+                            </a>
                           </li>
                           <li>
-                            Web Designer and Developer
-                          </li>
-                          <li>
+                            <a href="#ojt">
                             On-the-job Training
+                            </a>
                           </li>
                           <li>
+                            <a href="#graphic">
                             Graphic Artist
+                            </a>
                           </li>
+                         
                           <li>
+                            <a href="#educ">
                             Education Timeline
+                            </a>
                           </li>
                           <li>
-                           Masters Degree
+                            <a href="#educ">
+                            Masters Degree
+                            </a>
                           </li>
                           <li>
-                           Board Passer
+                            <a href="#educ">
+                            Board Passer
+                            </a>
                           </li>
                           <li>
-                           Qualifying Course
+                            <a href="#educ">
+                            Qualifying Course
+                            </a>
                           </li>
                           <li>
-                           Bachelors Degree
+                            <a href="#educ">
+                            Bachelors Degree
+                            </a>
                           </li>
                           <li>
-                           Secondary Education
+                            <a href="#educ">
+                            Secondary Education
+                            </a>
                           </li>
                           <li>
-                           My Services
+                            <a href="#services">
+                            My Services
+                            </a>
                           </li>
                         </ul>
 

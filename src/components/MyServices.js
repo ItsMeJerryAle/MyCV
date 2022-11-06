@@ -4,7 +4,7 @@ export default function MyServices() {
   return (
     <div>
         
-        <div className='w-full bg-[#1c1c1c] h-fit'>
+        <div id="services" className='w-full bg-[#1c1c1c] h-fit'>
             <div className='container mx-auto py-12'>
                 <div className='text-center text-slate-200 font-bold text-3xl mb-16'>
                     <h2>

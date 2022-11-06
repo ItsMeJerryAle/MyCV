@@ -1,20 +1,18 @@
 import BottomArea from './components/BottomArea';
-import Drawer from './components/Drawer';
 import Education from './components/Education';
 import Header from './components/Header';
 import MyServices from './components/MyServices';
 import Stack from './components/Stack';
 import Timeline from './components/Timeline';
+import React from 'react'
+import Drawer from './components/Drawer';
 
 function App() {
 
-
   return (
     <div className='px-0' >
-    
-      <Drawer />
-
-      <Header />
+      <Drawer/>
+      <Header/>
       <Stack />
       <div className="w-full" >
           <div className='relative '>
@@ -22,8 +20,7 @@ function App() {
           </div>
       </div>
      
-      <Timeline className="section"/>     
-
+      <Timeline/>     
       <Education />
       
       <MyServices />

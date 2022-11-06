@@ -20,7 +20,7 @@ export default function Header() {
 
   return (
     <div>
-        <div className='relative w-full flex columns-2 h-max overflow-hidden' >
+        <div id="profile" className='relative w-full flex columns-2 h-max overflow-hidden' >
             <div className='px-32 py-32 float-left '>
                 <span className='text-5xl text-white font-light text-left'>Hi! I Am </span>
                 <br/>

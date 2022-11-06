@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Stack() {
   return (
-    <div className='grid grid-cols-1 place-content-center px-64 h-96'>
+    <div id="tools" className='grid grid-cols-1 place-content-center px-64 h-96'>
             
       <div className='grid grid-cols-2 gap-0 w-60 place-self-center'>
           <div className=' text-center  place-self-center'>

@@ -10,7 +10,7 @@ export default function Timeline() {
 
   return (
     <div>
-        <div className='career container mx-auto px-64 py-12'>
+        <div id="career" className='career container mx-auto px-64 py-12'>
                 <div className='text-center text-slate-200 font-bold text-3xl mb-16'>
                     <h2>
                         My Career Timeline
@@ -33,14 +33,14 @@ export default function Timeline() {
                         
                         <CourseList/>
                         
-                        <div className='flex items-center align-middle '>
+                        <div id="position" className='flex items-center align-middle scroll-my-10 '>
                             <svg className="w-3 h-3 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
                             <p className='ml-2 uppercase font-medium text-white'>Assigned Position/s</p>
                             
                         </div>
                         <Designation />
 
-                        <div className='flex items-center align-middle '>
+                        <div id="trainings" className='flex items-center align-middle  scroll-my-10'>
                             <svg className="w-3 h-3 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 576 512"><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
                             <p className='ml-2 uppercase font-medium text-white'>Trainings, Seminars and Other Works</p>
                             
@@ -52,7 +52,7 @@ export default function Timeline() {
 
 
 
-                    <li className="mb-10 ml-6">
+                    <li id="designer" className="mb-10 ml-6 scroll-my-10">
                         <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                             <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"></path></svg>
                         </span>
@@ -64,7 +64,7 @@ export default function Timeline() {
                         <Thrane />
                     </li>
                 
-                    <li className="ml-6 my-12">
+                    <li id="ojt" className="ml-6 my-12 scroll-my-10">
                         <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                             <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"></path></svg>
                         </span>
@@ -74,7 +74,7 @@ export default function Timeline() {
                             On-the-trainee of a DTI registered technology firm pioneered software development outsourcing in the province of bohol   <a href='https://auza.net/' target="_blank" rel="noreferrer" className="text-teal-300">Auza.net</a>
                         </p>
                     </li>
-                    <li className="ml-6">
+                    <li id="graphic" className="ml-6 scroll-my-10">
                         <span className="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
                             <svg aria-hidden="true" className="w-3 h-3 text-blue-600 dark:text-blue-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd"></path></svg>
                         </span>
