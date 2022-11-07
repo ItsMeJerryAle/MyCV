@@ -75,7 +75,7 @@ export default function CourseList() {
                     <div className='pl-7'>
                         <p className="text-gray-400 mb-2">Stack</p>
                         <div className='h-12 flex mb-3'>
-                            <img className='h-8 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/java.png'} alt="react logo"/>  
+                            <img className='h-8 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/Java.png'} alt="react logo"/>  
                             <img className='h-8 pointer-events-none mr-5' src={process.env.PUBLIC_URL + '/icons/android.png'} alt="react logo"/>
                             <img className='h-8 pointer-events-none mr-5' src={process.env.PUBLIC_URL + '/icons/sqlite.svg'} alt="react logo"/>
                         </div>
@@ -97,7 +97,7 @@ export default function CourseList() {
                     <div className='pl-7'>
                         <p className="text-gray-400 mb-2">Stack</p>
                         <div className='h-12 flex mb-3'>
-                            <img className='h-8 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/java.png'} alt="react logo"/>  
+                            <img className='h-8 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/Java.png'} alt="react logo"/>  
                             <img className='h-8 pointer-events-none mr-5' src={process.env.PUBLIC_URL + '/icons/netbeans.png'} alt="react logo"/>
                         </div>
                     </div>
