@@ -4,7 +4,7 @@ export default function Education() {
   return (
     <div>
         
-        <div id="educ" className='container mx-auto px-64 py-12'>
+        <div id="educ" className='container mx-auto 2xl:px-64 lg:px-32 py-12'>
                 <div className='text-center text-slate-200 font-bold text-3xl mb-16'>
                     <h2>
                         My Education Timeline

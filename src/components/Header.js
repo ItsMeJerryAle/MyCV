@@ -20,18 +20,18 @@ export default function Header() {
 
   return (
     <div>
-        <div id="profile" className='relative w-full flex columns-2 h-max overflow-hidden' >
-            <div className='px-32 py-32 float-left '>
-                <span className='text-5xl text-white font-light text-left'>Hi! I Am </span>
+        <div id="profile" className='relative w-full flex columns-2 h-screen lg:h-max overflow-hidden' >
+            <div className='px-4 py-16 2xl:px-32 2xl:py-32 float-left '>
+                <span className='text-2xl 2xl:text-5xl text-white font-light text-left'>Hi! I Am </span>
                 <br/>
-                <span className='text-8xl text-white text-left font-semibold'>Jerry S. Ale </span>
+                <span className='text-5xl 2xl:text-8xl text-white text-left font-semibold'>Jerry S. Ale </span>
                 <div className='my-10'>
-                    <span className='text-white bg-gradient-to-r from-violet-800 to-indigo-600 rounded-full px-5 py-3 mr-3'>Web Dev</span>
-                    <span className='text-white rounded-full px-5 py-3 bg-gradient-to-r bg-indigo-600 mr-3'>UI/UX</span>
-                    <span className='text-white rounded-full px-5 py-3 bg-gradient-to-r bg-indigo-600'>IT Instructor</span>
+                    <span className='text-xs xl:text-lg text-white bg-gradient-to-r from-violet-800 to-indigo-600 rounded-full px-3 py-2 2xl:px-5 2xl:py-3 mr-3'>Web Dev</span>
+                    <span className='text-xs xl:text-lg text-white rounded-full px-3 py-2 2xl:px-5 2xl:py-3bg-gradient-to-r bg-indigo-600 mr-3'>UI/UX</span>
+                    <span className='text-xs xl:text-lg text-white rounded-full px-3 py-2 2xl:px-5 2xl:py-3 bg-gradient-to-r bg-indigo-600'>IT Instructor</span>
                 </div>
-                <div className='pr-32'>
-                    <p className='text-zinc-400 text-left'>
+                <div className='pr-4 lg:pr-32'>
+                    <p className='text-zinc-400 text-left text-xs lg:text-base'>
                         A java programming enthusiast and a web developer primarily focusing on UI and UX design switched into an IT educator
                         for more than 4 years from a premiere university teaching major subjects such as web development, Java mobile development 
                         in Android Studio, and Java Programming.
@@ -62,7 +62,7 @@ export default function Header() {
                     <button className='t-tooltip place-self-center mr-1 hover:cursor-pointer max-w-md'
                         data-collapse-toggle="toast">
                         <a href='https://www.linkedin.com/in/jerryale/' target="_blank" rel="noreferrer">
-                            <img width="36" height="36" src={process.env.PUBLIC_URL + '/icons/linkedIn.svg'} alt="linked in"/>   
+                            <img width="36" height="36" src={process.env.PUBLIC_URL + '/icons/linkedin.svg'} alt="linked in"/>   
                         </a>
                         
                         <div className='t-tooltip -ml-8 '>
@@ -126,13 +126,14 @@ export default function Header() {
                 </div>
             </div>
 
-            <div className='float-left w-6/12 bg-gradient-to-r from-violet-800 to-indigo-600 '>
+            <div className='float-left w-96 2xl:w-6/12 bg-gradient-to-r from-violet-800 to-indigo-600 '>
                 
-                <div className="absolute  inset-y-0 xl:right-0 md:-right-40" >
-                    <img className='w-9/12 h-auto pointer-events-none' src={MyProfile} alt="myprofile"/>
-                </div>                
+                            
             </div>
-            
+            <div className="absolute inset-y-0 xl:right-0 md:-right-40 " >
+                    <img className='w-9/12 h-auto pointer-events-none' src={MyProfile} alt="myprofile"/>
+                </div>  
+
         </div>
                 <div className="absolute -left-44" >
                     <img className='w-auto h-72 -rotate-90  pointer-events-none'  src={process.env.PUBLIC_URL + '/icons/Shape.svg'} alt="gmail"/> 

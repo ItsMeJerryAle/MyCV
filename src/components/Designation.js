@@ -66,20 +66,20 @@ export default function Designation() {
                                - Leads in the development and maintenance of the following campus websites
                                <div className='grid grid-cols-2 gap-2 py-2'>
                                     <div>
-                                        <a href="https://bisubalilihan.com/" className='text-indigo-400' target="_blank" rel="noreferrer">
-                                                <img className='h-60 pointer-events-none ml-5' src={process.env.PUBLIC_URL + '/icons/bisubalilihan.png'} alt="react logo"/>
+                                        <a href="https://bisubalilihan.com/" className='text-indigo-400 flex' target="_blank" rel="noreferrer">
+                                                <img className='h-60 shrink-0 pointer-events-none ml-5' src={process.env.PUBLIC_URL + '/icons/bisubalilihan.png'} alt="react logo"/>
                                             </a>
                                         <p className='text-center'>BISU Balilihan Official Website</p>
                                     </div>    
                                     <div>
                                         <a href="http://ict.bisubalilihan.com/" className='text-indigo-400' target="_blank" rel="noreferrer">
-                                                <img className='h-60 pointer-events-none ml-5' src={process.env.PUBLIC_URL + '/icons/ictservices.png'} alt="react logo"/>
+                                                <img className='h-60 w-fit pointer-events-none ml-5' src={process.env.PUBLIC_URL + '/icons/ictservices.png'} alt="react logo"/>
                                             </a>
                                         <p className='text-center'>BISU Balilihan ICT Services Website</p>
                                     </div>   
                                     <div>
                                         <a href="https://mis-helpline.herokuapp.com/" className='text-indigo-400' target="_blank" rel="noreferrer">
-                                                <img className='h-60 pointer-events-none ml-5' src={process.env.PUBLIC_URL + '/icons/helpdesk.png'} alt="react logo"/>
+                                                <img className='h-60 w-fit pointer-events-none ml-5' src={process.env.PUBLIC_URL + '/icons/helpdesk.png'} alt="react logo"/>
                                             </a>
                                         <p className='text-center'>MIS Office Helpdesk WebApp</p>
                                     </div>                            

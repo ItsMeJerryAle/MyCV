@@ -10,7 +10,7 @@ export default function Timeline() {
 
   return (
     <div>
-        <div id="career" className='career container mx-auto px-64 py-12'>
+        <div id="career" className='career container mx-auto 2xl:px-64 lg:px-32 py-12'>
                 <div className='text-center text-slate-200 font-bold text-3xl mb-16'>
                     <h2>
                         My Career Timeline
@@ -91,7 +91,7 @@ export default function Timeline() {
 
             <div className="w-full" >
                 <div className='relative '>
-                    <img className='absolute -left-56 -mt-96 -top-96 p-0 h-72 -rotate-90  pointer-events-none'  src={process.env.PUBLIC_URL + '/icons/Shape.svg'} alt="gmail"/> 
+                    <img className='absolute -left-80 -mt-96 -top-96 p-0 h-72 -rotate-90  pointer-events-none'  src={process.env.PUBLIC_URL + '/icons/Shape.svg'} alt="gmail"/> 
                 </div>
             </div>
     </div>
