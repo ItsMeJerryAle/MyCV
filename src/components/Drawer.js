@@ -15,7 +15,7 @@ export default function Drawer() {
 
         <button
                 type="button"
-                className="fixed top-5 right-5 z-10 rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-white"
+                className="fixed xs:hidden top-5 right-5 z-10 rounded-md text-gray-300 hover:text-white focus:outline-none focus:ring-white"
                 onClick={() => setOpen(true)}
                 >
                 <span className="sr-only">Open panel</span>
@@ -52,7 +52,7 @@ export default function Drawer() {
                 leaveFrom="translate-x-0"
                 leaveTo="translate-x-full"
               >
-                <Dialog.Panel className="pointer-events-auto relative w-screen max-w-md">
+                <Dialog.Panel className="pointer-events-auto relative w-screen xs:w-max max-w-md">
                   <Transition.Child
                     as={Fragment}
                     enter="ease-in-out duration-500"
@@ -75,7 +75,7 @@ export default function Drawer() {
                     </div>
                   </Transition.Child>
                   <div className="flex h-full flex-col overflow-y-scroll bg-white py-6 shadow-xl">
-                    <div className="sm:px-6">
+                    <div className="sm:px-6 xs:px-2">
                       <Dialog.Title className="text-lg font-medium text-gray-900">Navigate</Dialog.Title>
                     </div>
                     <div className="relative mt-6 flex-1 sm:px-6">

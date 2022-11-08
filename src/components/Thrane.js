@@ -62,23 +62,23 @@ export default function Thrane() {
             <li className="flex items-start space-x-2">
                
                 <div className='block'>
-                    <div className='grid grid-cols-2 pl-5'>
+                    <div className='grid grid-cols-1 lg:grid-cols-2 pl-5'>
                         <div>
                             <p className="text-gray-400 mb-2">Design Stack</p>
                             <div className='h-12 flex mb-3'>
-                                <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/photoshop.svg'} alt="react logo"/>
-                                <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/illustrator.svg'} alt="react logo"/>
-                                <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/xd.svg'} alt="react logo"/>
-                                <img className='w-12 mt-3 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/figma.svg'} alt="react logo"/>
+                                <img className='h-8 lg:h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/photoshop.svg'} alt="react logo"/>
+                                <img className='h-8 lg:h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/illustrator.svg'} alt="react logo"/>
+                                <img className='h-8 lg:h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/xd.svg'} alt="react logo"/>
+                                <img className='h-8 lg:h-12 pointer-events-none mt-0' src={process.env.PUBLIC_URL + '/icons/figma.svg'} alt="react logo"/>
                             </div>
                         </div>
                         <div>
                             <p className="text-gray-400 mb-2">Development Stack</p>
                             <div className='h-12 flex'>
-                                <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/wordpress.svg'} alt="react logo"/>
-                                <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/elementor-icon.svg'} alt="react logo"/>
-                                <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/sage.svg'} alt="react logo"/>
-                                <img className='h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/acf.png'} alt="react logo"/>
+                                <img className='h-8 lg:h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/wordpress.svg'} alt="react logo"/>
+                                <img className='h-8 lg:h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/elementor-icon.svg'} alt="react logo"/>
+                                <img className='h-8 lg:h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/sage.svg'} alt="react logo"/>
+                                <img className='h-8 lg:h-12 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/acf.png'} alt="react logo"/>
                             </div>
                         </div>
                         

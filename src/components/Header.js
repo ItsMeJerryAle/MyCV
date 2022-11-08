@@ -126,15 +126,15 @@ export default function Header() {
                 </div>
             </div>
 
-            <div className='float-left w-96 2xl:w-6/12 bg-gradient-to-r from-violet-800 to-indigo-600 '>
+            <div className='flex float-left w-96 xs:w-max 2xl:w-6/12 bg-gradient-to-r from-violet-800 to-indigo-600 '>
                 
                             
             </div>
             <div className="absolute inset-y-0 xl:right-0 md:-right-40 " >
-                    <img className='w-9/12 h-auto pointer-events-none' src={MyProfile} alt="myprofile"/>
-                </div>  
+                <img className=' w-9/12 h-auto pointer-events-none' src={MyProfile} alt="myprofile"/>
+            </div>  
 
-        </div>
+            </div>
                 <div className="absolute -left-44" >
                     <img className='w-auto h-72 -rotate-90  pointer-events-none'  src={process.env.PUBLIC_URL + '/icons/Shape.svg'} alt="gmail"/> 
                 </div>  
