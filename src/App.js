@@ -10,7 +10,7 @@ import Drawer from './components/Drawer';
 function App() {
 
   return (
-    <div className='px-0 w-screen' >
+    <div className='px-0' >
       <Drawer/>
       <Header/>
       <Stack />
@@ -24,6 +24,11 @@ function App() {
       <Education />
       <MyServices />
       <BottomArea /> 
+  
+
+      
+
+
     </div>
   );
 }
