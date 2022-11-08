@@ -3,14 +3,12 @@ import React from 'react'
 export default function BottomArea() {
   return (
     <div>
-
-        <div className='relative container mx-auto h-48 py-12'>
-            <div className='grid grid-cols-2 gap-4 place-items-center '>
-                <div className='flex'>
-                    
-                    <img className='rounded-full' width="90" height="90" src={process.env.PUBLIC_URL + '/icons/gitprofile.jpg'} alt="myprofile"/>
-                    <div className='inline-block ml-5 align-middle'>
-                        <h2 className='text-xl font-semibold text-slate-200'>
+        <div className='relative container w-full h-48 p-4 lg:py-12  px-4'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-1 md:gap-4 place-items-center'>
+                <div className='flex justify-center items-center'>
+                    <img className='rounded-full h-20 w-20' src={process.env.PUBLIC_URL + '/icons/gitprofile.jpg'} alt="myprofile"/>
+                    <div className='ml-5'>
+                        <h2 className='text-base lg:text-xl font-semibold text-slate-200'>
                             Masterz3rr
                         </h2>
                         <p className='flex justify-start items-center'>
@@ -23,8 +21,8 @@ export default function BottomArea() {
                         </p>
                     </div> 
                 </div>
-                <div className='flex flex-row justify-center items-center pr-24 '>
-                    <p className='text-slate-200 text-2xl mr-4'>You like the design? Fork my Github repo by clicking this button.</p><br/>
+                <div className='flex flex-col lg:flex-row justify-center items-center pr-24 '>
+                    <p className='text-slate-200 text-base lg:text-2xl mr-4'>You like the design? Fork my Github repo by clicking this button.</p><br/>
                     <a href='https://github.com/masterz3rr/MyCV/fork' target="_blank" rel="noreferrer">
                     <button className='justify-center items-center flex px-8 py-2 bg-gradient-to-r from-violet-600 to-indigo-700 text-slate-300 rounded-full hover:from-indigo-700 hover:to-violet-600'>
                         <svg className='mr-3 w-8 h-8 text-slate-300' fill='currentColor' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/></svg>

@@ -12,7 +12,7 @@ export default function MyServices() {
                     </h2>
                 </div>
 
-                <div className='grid grid-cols-3 gap-10 '>
+                <div className='grid xs:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 '>
                     <div className='flex ease-in-out duration-100 flex-col justify-start items-center border border-indigo-700   px-4 py-6  hover:bg-indigo-700 group'>
                             <svg className=' h-10 w-10 text-indigo-700 group-hover:text-slate-300' fill='currentColor' viewBox="0 0 640 512"><path d="M128 32C92.7 32 64 60.7 64 96V352h64V96H512V352h64V96c0-35.3-28.7-64-64-64H128zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480H563.2c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2H19.2z"/></svg>
                             <h2 className='text-indigo-700 my-4 group-hover:text-slate-300 font-semibold' >UI/UX Design</h2>

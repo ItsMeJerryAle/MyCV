@@ -90,11 +90,7 @@ export default function Timeline() {
             </div>
 
 
-            <div className="w-full" >
-                <div className='relative '>
-                    <img className='absolute xs:hidden-left-80 -mt-96 -top-96 p-0 h-72 -rotate-90  pointer-events-none'  src={process.env.PUBLIC_URL + '/icons/Shape.svg'} alt="gmail"/> 
-                </div>
-            </div>
+           
     </div>
     
   )
