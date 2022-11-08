@@ -75,15 +75,7 @@ export default function CourseList() {
                     <div className=' pl-4 lg:pl-7'>
                         <p className="text-gray-400 mb-2 text-xs lg:text-base">Stack</p>
                         <div className='h-12 flex mb-3'>
-<<<<<<< HEAD
-                            <img className='h-8 lg:h-12  pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/Java.png'} alt="react logo"/>  
-                            <img className='h-8 lg:h-12  pointer-events-none mr-5' src={process.env.PUBLIC_URL + '/icons/android.png'} alt="react logo"/>
-                            <img className='h-8 lg:h-12  pointer-events-none mr-5' src={process.env.PUBLIC_URL + '/icons/sqlite.svg'} alt="react logo"/>
-=======
-                            <img className='h-8 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/java.png'} alt="react logo"/>  
-                            <img className='h-8 pointer-events-none mr-5' src={process.env.PUBLIC_URL + '/icons/android.png'} alt="react logo"/>
-                            <img className='h-8 pointer-events-none mr-5' src={process.env.PUBLIC_URL + '/icons/sqlite.svg'} alt="react logo"/>
->>>>>>> parent of 4e08f1d (Update CourseList.js)
+
                         </div>
                     </div>
                     <div className=' pl-4 lg:pl-7'>
@@ -103,13 +95,7 @@ export default function CourseList() {
                     <div className='pl-2 lg:pl-7'>
                         <p className="text-gray-400 mb-2 text-xs lg:text-base">Stack</p>
                         <div className='h-12 flex mb-3'>
-<<<<<<< HEAD
-                            <img className='h-8 lg:h-12  pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/Java.png'} alt="react logo"/>  
-                            <img className='h-8 lg:h-12  pointer-events-none mr-5' src={process.env.PUBLIC_URL + '/icons/netbeans.png'} alt="react logo"/>
-=======
-                            <img className='h-8 pointer-events-none mr-3' src={process.env.PUBLIC_URL + '/icons/java.png'} alt="react logo"/>  
-                            <img className='h-8 pointer-events-none mr-5' src={process.env.PUBLIC_URL + '/icons/netbeans.png'} alt="react logo"/>
->>>>>>> parent of 4e08f1d (Update CourseList.js)
+
                         </div>
                     </div>
                     
