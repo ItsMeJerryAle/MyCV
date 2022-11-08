@@ -14,6 +14,10 @@ function App() {
       <Drawer/>
       <Header/>
       <Stack />
+      {/**
+       * 
+       
+
 
       <div className="w-full" >
           <div className='relative '>
@@ -25,6 +29,10 @@ function App() {
       <MyServices />
       <BottomArea /> 
   
+
+       * 
+       */}
+     
 
       
 
