@@ -76,7 +76,7 @@ export default function Header() {
                     <button className='t-tooltip place-self-center mr-1 hover:cursor-pointer max-w-md'
                         data-collapse-toggle="toast">
                         <a href='https://www.linkedin.com/in/jerryale/' target="_blank" rel="noreferrer">
-                            <img width="36" height="36" src={process.env.PUBLIC_URL + '/icons/linkedin.svg'} alt="linked in"/>   
+                            <img width="36" height="36" src={process.env.PUBLIC_URL + '/icons/linkedIn.svg'} alt="linked in"/>   
                         </a>
                         
                         <div className='t-tooltip -ml-8 '>
